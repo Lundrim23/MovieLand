@@ -8,13 +8,13 @@ import MovieCard from "./movieCard";
 
 const API_URL = "http://www.omdbapi.com/?apikey=a5269d10";
 
-//const movie1 = {
-//  Title: "",
-//  Year: "1990",
-//  imdbID: "tt0100669",
-//  Type: "movie",
-//  Poster: "N/A",
-//};
+const movie1 = {
+  Title: "",
+  Year: "1990",
+  imdbID: "tt0100669",
+  Type: "movie",
+  Poster: "N/A",
+};
 
 const App = () => {
   const [movie, setMovies] = useState([]);
