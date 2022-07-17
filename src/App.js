@@ -16,6 +16,7 @@ const movie1 = {
   Poster: "N/A",
 };
 
+console.log(movie1);
 const App = () => {
   const [movie, setMovies] = useState([]);
 
